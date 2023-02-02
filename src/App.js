@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.scss';
 import BeerBackground from './components/beer-background';
-import Title from './components/title';
+import TextSection from './components/text-section';
 
 function App() {
   return (
@@ -9,13 +9,13 @@ function App() {
       <div className='BeerBackground'>
         <BeerBackground/>
       </div>
-      <Title/>
-      <Title/>
-      <Title/>
-      <Title/>
-      <Title/>
-      <Title/>
-      <Title/>
+      <TextSection/>
+      <TextSection/>
+      <TextSection/>
+      <TextSection/>
+      <TextSection/>
+      <TextSection/>
+      <TextSection/>
     </div>
   );
 }

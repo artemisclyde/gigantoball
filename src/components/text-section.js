@@ -1,7 +1,7 @@
 import React from 'react'
-import './title.scss';
+import './text-section.scss';
 
-function Title() {
+function TextSection() {
     return (
         <>
         <div className='longAssDiv'>
@@ -12,4 +12,4 @@ function Title() {
     );
 }
 
-export default Title;
+export default TextSection;
