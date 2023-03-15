@@ -9,13 +9,12 @@ function App() {
       <div className='BeerBackground'>
         <BeerBackground/>
       </div>
-      <TextSection/>
-      <TextSection/>
-      <TextSection/>
-      <TextSection/>
-      <TextSection/>
-      <TextSection/>
-      <TextSection/>
+      <div class="text-section"><TextSection/></div>
+      <div class="text-section"><TextSection/></div>
+      <div class="text-section"><TextSection/></div>
+      <div class="text-section"><TextSection/></div>
+      <div class="text-section"><TextSection/></div>
+      <div class="text-section"><TextSection/></div>
     </div>
   );
 }
