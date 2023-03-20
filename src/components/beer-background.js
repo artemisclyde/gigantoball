@@ -4,23 +4,22 @@ import './beer-background.scss';
 const BeerBackground = () => {
     return (
         <div className="BeerBackground">
-            <div class="table"></div>
-            <div class="glass">
-                <div class="ear"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="foam"></div>
-                <div class="shine"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
+            <div className="glass">
+                <div className="ear"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="foam"></div>
+                <div className="shine"></div>
+                <div className="bubble"></div>
+                <div className="bubble"></div>
+                <div className="bubble"></div>
+                <div className="bubble"></div>
             </div>
         </div>
     )

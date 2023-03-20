@@ -6,15 +6,16 @@ import TextSection from './components/text-section';
 function App() {
   return (
     <div className="App">
+      <h1 className="bigHeading">Gigantoball</h1>
       <div className='BeerBackground'>
         <BeerBackground/>
       </div>
-      <div class="text-section"><TextSection/></div>
-      <div class="text-section"><TextSection/></div>
-      <div class="text-section"><TextSection/></div>
-      <div class="text-section"><TextSection/></div>
-      <div class="text-section"><TextSection/></div>
-      <div class="text-section"><TextSection/></div>
+      {/* Heading Gigantoball */}
+      {/* Rules */}
+      {/* Time and Place */}
+      {/* Preparations */}
+      {/* Questions and Contact */}
+      {/* Footer ? */}
     </div>
   );
 }

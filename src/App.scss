@@ -7,13 +7,18 @@
 
 .App {
   text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.bigHeading {
+  color: white;
 }
 
 .BeerBackground {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: -1;
 }
 
 Title {
