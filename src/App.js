@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.scss';
 import BeerBackground from './components/beer-background';
-import TextSection from './components/text-section';
 
 function App() {
   return (
