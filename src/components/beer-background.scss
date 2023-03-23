@@ -2,6 +2,12 @@ $glass-color: rgb(249, 249, 249);
 $beer-color: rgb(255, 195, 78);
 $foamSize: 90px;
 
+
+.BeerBackground {
+    width: 100%;
+    max-height: 50px;
+  }
+  
 body {
     margin: 0;
     padding: 0;
