@@ -1,7 +1,49 @@
 .bigHeading {
     color: #f3f;
-    font-size: 20rem;
+    font-size: 5rem;
     font-family: 'QTCloisteredMonk';
     font-weight: 500;
     font-style: normal;
   }
+
+div.content {
+  position: relative;
+}
+
+section {
+  overflow: auto;
+  min-height: 300px;
+}
+
+Button {
+  margin: 0 auto;
+}
+
+section:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.579);
+  color: white;
+}
+
+section:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.424);
+  color: black;
+}
+
+div.background {
+  position: fixed;
+}
+
+div.background::before {
+  content: "";
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/flaschenwiese.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+}

@@ -1,32 +1,44 @@
 import React from "react";
 import './main-page.scss';
-import BeerBackground from './beer-background';
 import BigIcon from './big-icon';
 import Rules from './rules';
 import TimeAndPlace from './time-and-place';
 import Preparations from './preparations';
 import QuestionsAndContact from './questions-and-contact';
-import Footer from './footer';
 import { Button } from '@nextui-org/react';
 
+
 function MainPage() {
-    return ( 
+const handleClick = (log) => {
+    console.log(`${log}`);
+}
+return ( 
       <div className="App">
-        <h1 className="bigHeading">Gigantoball</h1>
-        <BigIcon/>
-        {/* Heading Gigantoball */}
-        <BeerBackground/>
-        {/* Rules */}
-        <Rules/>
-        {/* Time and Place */}
-        <TimeAndPlace/>
-        {/* Preparations */}
-        <Preparations/>
-        {/* Questions and Contact */}
-        <QuestionsAndContact/>
-        {/* Footer ? */}
-        <Footer/>
-        <Button size="xl">Test</Button>
+        <div className="background"/>
+        <div className="content">
+            {/* Heading Gigantoball */}
+            <h1 className="bigHeading">Gigantoball</h1>
+            <section>
+                <BigIcon/>  
+            </section>
+            {/* Rules */}
+            <section>
+                <Rules/>
+            </section>
+            {/* Time and Place */}
+            <section>
+                <TimeAndPlace/>
+            </section>
+            {/* Preparations */}
+            <section>
+                <Preparations/>
+            </section>
+            {/* Questions and Contact */}
+            <section>
+                <QuestionsAndContact/>
+            </section>
+            <Button onPress={() => handleClick('hihihihi')} size="xl">A function I have not thihihi</Button>
+        </div>
       </div>
      );
 }
