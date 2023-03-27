@@ -9,21 +9,6 @@
   text-align: center;
   background-color: black;
   color: white;
-  height: 100vh;
-}
-
-.bigHeading {
-  color: #f3f;
-  font-size: 20rem;
-  font-family: 'QTCloisteredMonk';
-  font-weight: 500;
-  font-style: normal;
-}
-
-Title {
-  margin: auto;
-}
-
-.text-section:nth-of-type(odd) div {
-    background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  height: 2000px;;
 }
