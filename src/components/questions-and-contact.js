@@ -1,10 +1,10 @@
-import { GiDeathSkull } from 'react-icons/gi';
+import { GiKnockout } from 'react-icons/gi';
 
 function QuestionsAndContact() {
     return ( 
         <div>
-            <div className="icon-md"><GiDeathSkull/></div>
-            <p>Ihr habt Fragen? Dann schickt uns einfach eine flotte Mail an <a href="mailto:email@example.com">MAILADDRESSE KOMMT BALD!</a></p>
+            <div className="icon-md"><GiKnockout/></div>
+            <p>Du hast Fragen? Hier kommt bald noch eine Email-Addresse, über die du uns erreichen kannst!</p>
         </div>
      );
 }

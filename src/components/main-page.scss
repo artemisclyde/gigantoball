@@ -1,9 +1,10 @@
 .bigHeading {
-    color: #f3f;
+    color: #000;
     font-size: 5rem;
     font-family: 'QTCloisteredMonk';
     font-weight: 500;
     font-style: normal;
+    filter: drop-shadow(5px 5px rgba(0, 0, 0, 0.4));
   }
 
 div.content {
