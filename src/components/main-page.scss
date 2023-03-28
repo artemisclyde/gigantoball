@@ -13,20 +13,19 @@ div.content {
 section {
   overflow: auto;
   min-height: 300px;
-}
+  margin: 5px 0;
 
-Button {
-  margin: 0 auto;
-}
+  &:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
 
-section:nth-of-type(even) {
-  background-color: rgba(0, 0, 0, 0.579);
-  color: white;
-}
-
-section:nth-of-type(odd) {
-  background-color: rgba(255, 255, 255, 0.424);
-  color: black;
+  &:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5)
+  }
 }
 
 div.background {
@@ -38,9 +37,9 @@ div.background::before {
   display: block;
   position: fixed;
   z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: -5px;
+  left: -5px;
+  width: 110%;
   height: 100%;
   background-image: url('../../assets/flaschenwiese.jpeg');
   background-repeat: no-repeat;

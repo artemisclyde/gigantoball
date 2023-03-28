@@ -1,6 +1,11 @@
+import { GiTurtleShell } from 'react-icons/gi';
+
 function Preparations() {
     return ( 
-        <div>Preparations</div>
+        <div>
+            <div className='icon-md'><GiTurtleShell/></div>
+            <div>Preparations</div>
+        </div>
      );
 }
 
