@@ -1,0 +1,8 @@
+@import "../styles/breakpoints.scss";
+
+div.textSection {
+    margin: 0 5rem;
+    @media (min-width: map.get($breakpoints, "sm")) {
+        margin: 0 5rem;
+    }
+}

@@ -59,3 +59,11 @@ div.background::before {
   background-size: cover;
   filter: blur(5px);
 }
+
+div.full-width-text {
+  margin: 0 10%;
+
+  @media (min-width: map.get($breakpoints, "sm")) {
+    margin: 0 20%;
+  }
+}

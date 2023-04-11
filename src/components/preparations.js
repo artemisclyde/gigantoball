@@ -2,7 +2,7 @@ import { GiNoodles } from 'react-icons/gi';
 
 function Preparations() {
     return ( 
-        <div>
+        <div className='full-width-text'>
             <div className='icon-md'><GiNoodles/></div>
             <h3>Vorbereitung</h3>
             <ul>
