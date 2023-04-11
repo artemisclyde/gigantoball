@@ -1,13 +1,23 @@
+@use "sass:map";
+@import "../styles/breakpoints.scss";
+
+@debug map-get($map: $breakpoints, $key: "sm");
+
+$breakpoint-phone: 450px;
+
 .bigHeading {
-    color: #000;
+  color: #000;
+  font-size: 5rem;
+  font-family: 'Moustache';
+  font-weight: 500;
+  filter: drop-shadow(5px 5px rgba(0, 0, 0, 0.4));
+  margin: 3rem 0 2rem 0;
+  letter-spacing: 2px;
+
+  @media (min-width: map.get($breakpoints, "sm")) {
     font-size: 8rem;
-    font-family: 'Moustache';
-    font-weight: 500;
-    font-style: bold;
-    filter: drop-shadow(5px 5px rgba(0, 0, 0, 0.4));
-    margin: 3rem 0 2rem 0;
-    letter-spacing: 2px;
   }
+}
 
 div.content {
   position: relative;
